@@ -14,7 +14,7 @@ Pak Dengklek memiliki banyak sekali bebek di kandangnya. Bebek-bebek tersebut di
 
 Karena hari Valentine sebentar lagi akan tiba, Pak Dengklek berencana untuk menghadiahkan coklat untuk bebek-bebeknya. Uniknya, Pak Dengklek ingin agar bebek-bebeknya tersebut menerima jumlah coklat sesuai aturan berikut: bebek pertama mendapat 1 coklat, bebek kedua mendapat 2 coklat, bebek ketiga mendapat 3 coklat, dan seterusnya sampai Pak Dengklek tidak dapat memberi coklatnya lagi karena kurang atau habis.
 
-Sayangnya, karena keterbatasan keuangan bulan ini, Pak Dengklek hanya mampu membeli X (0 <= X <= 1018) buah coklat. Tentukan nomor bebek pertama yang tidak mendapat coklat.
+Sayangnya, karena keterbatasan keuangan bulan ini, Pak Dengklek hanya mampu membeli `X (0 <= X <= 1018)` buah coklat. Tentukan nomor bebek pertama yang tidak mendapat coklat.
 Format Masukan
 
 Baris pertama berisi sebuah bilangan bulat X.
@@ -32,7 +32,7 @@ Contoh Keluaran
 ```
 Penjelasan
 
-Bebek nomor 1 - 4 akan mendapat 1+2+3+4 = 10 coklat, sehingga tersisa 4 coklat. Bebek nomor 5 tidak mendapat coklat karena sisa coklat kurang.
+Bebek nomor 1 - 4 akan mendapat `1+2+3+4 = 10` coklat, sehingga tersisa 4 coklat. Bebek nomor 5 tidak mendapat coklat karena sisa coklat kurang.
 
 
 2. Warisan
@@ -47,7 +47,7 @@ Pak Dengklek baru saja mendapatkan warisan dari salah satu leluhurnya. Warisan t
 Terlebih lagi, pada potongan tanah yang ia dapatkan, terdapat banyak pohon-pohon yang sudah tidak elok lagi dipandang. Pohon-pohon tersebut hendak Pak Dengklek tebang. Ongkos menebang satu pohon adalah 1 dolar. Bantu juga Pak Dengklek dalam menghitung berapa uang yang perlu ia keluarkan untuk menebang semua pohon tersebut. Pohon yang ia tebang tentu adalah pohon yang ada di dalam area tanah miliknya, yakni yang terletak di dalam atau tepat di garis segitiga. 
 Format Masukan
 
-Tiga baris pertama berisi koordinat tiga titik sudut dari tanah Pak Dengklek. Baris berikutnya berisi sebuah bilangan bulat N (1≤N≤100), banyaknya pohon yang ingin ditebang. N baris berikutnya masing-masing berisi koordinat sebuah pohon.
+Tiga baris pertama berisi koordinat tiga titik sudut dari tanah Pak Dengklek. Baris berikutnya berisi sebuah bilangan bulat `N (1≤N≤100),` banyaknya pohon yang ingin ditebang. N baris berikutnya masing-masing berisi koordinat sebuah pohon.
 Format Keluaran
 
 Baris pertama berisi sebuah bilangan yang menyatakan luas tanah Pak Dengklek (dibulatkan sampai satu angka di belakang koma). Baris kedua berisi sebuah bilangan bulat yang menyatakan jumlah ongkos yang perlu Pak Dengklek keluarkan untuk membersihkan tanahnya dari pohon-pohon yang sudah tidak elok lagi.
@@ -82,7 +82,7 @@ Batas Memori |	8MB
 Diketahui sekumpulan n bilangan bulat (A), dan sekumpulan m bilangan bulat (B). Buat program untuk memeriksa bilangan mana saja dalam A yang tidak terdapat di dalam B. Bilangan yang terdapat di dalam A maupun B bernilai dengan kisaran -100 sampai dengan 100.
 Format Masukan
 
-Baris pertama bilangan n yang menunjukkan banyaknya bilangan dalam A, dan baris kedua berisi n bilangan bulat dengan kisaran nilai -100 sampai dengan 100. Baris ketiga bilangan m yang menunjukkan banyaknya bilangan B, dan baris keempat berisi m bilangan bulat dengan kisaran nilai -100 sampai dengan 100. Diasumsikan bahwa 2≤n,m≤100000.
+Baris pertama bilangan n yang menunjukkan banyaknya bilangan dalam A, dan baris kedua berisi n bilangan bulat dengan kisaran nilai -100 sampai dengan 100. Baris ketiga bilangan m yang menunjukkan banyaknya bilangan B, dan baris keempat berisi m bilangan bulat dengan kisaran nilai -100 sampai dengan 100. Diasumsikan bahwa `2≤n,m≤100000.`
 Format Keluaran
 
 Bilangan unik dalam A terurut dari kecil ke besar yang tidak terdapat pada B.
@@ -108,12 +108,12 @@ Contoh Keluaran
 Batas Waktu  |	1 detik
 Batas Memori  |	32 MB
 
-Median adalah nilai tengah dari suatu kumpulan bilangan yang sudah terurut. Misalnya diberikan data [10, -1, 8, 4, 5], maka data tersebut menjadi [-1, 4, 5, 8, 10] setelah diurutkan. Median dari kumpulan bilangan tersebut adalah 5. Bila banyak bilangan genap, maka median dari kumpulan bilangan tersebut adalah rata-rata dari dua nilai tengahnya.
+Median adalah nilai tengah dari suatu kumpulan bilangan yang sudah terurut. Misalnya diberikan data `[10, -1, 8, 4, 5]`, maka data tersebut menjadi `[-1, 4, 5, 8, 10]` setelah diurutkan. Median dari kumpulan bilangan tersebut adalah 5. Bila banyak bilangan genap, maka median dari kumpulan bilangan tersebut adalah rata-rata dari dua nilai tengahnya.
 
-Pak Dengklek memberikan Anda N (1 ≤ N ≤ 2.000.000) buah bilangan. Tentukan median dari N bilangan tersebut.
+Pak Dengklek memberikan Anda `N (1 ≤ N ≤ 2.000.000)` buah bilangan. Tentukan median dari N bilangan tersebut.
 Format Masukan
 
-Baris pertama berisi sebuah bilangan bulat N. Baris berikutnya berisi N buah bilangan, antara -8.000 sampai 8.000, yaitu bilangan-bilangan tersebut.
+Baris pertama berisi sebuah bilangan bulat N. Baris berikutnya berisi N buah bilangan, antara `-8.000 sampai 8.000`, yaitu bilangan-bilangan tersebut.
 Format Keluaran
 
 Sebuah baris berisi sebuah bilangan nyata yaitu median dari bilangan-bilangan tersebut, dengan dua angka di belakang koma.
