@@ -4,9 +4,11 @@
 
 1. Coklat untuk Bebek
 
-Batas Waktu 	1 detik
-Batas Memori 	32 MB
-Oleh 	Reinhard Dennis, TOKI 2009, modified by Muhammad Adinata, TOKI 2009
+|name | description |
+| --------- | --------- |
+|Batas Waktu    | 1 detik   |
+|Batas Memori   | 32 MB     |
+|Oleh           |	Reinhard Dennis, TOKI 2009, modified by Muhammad Adinata, TOKI 2009 |
 
 Pak Dengklek memiliki banyak sekali bebek di kandangnya. Bebek-bebek tersebut diberi nomor mulai dari 1.
 
@@ -19,14 +21,15 @@ Baris pertama berisi sebuah bilangan bulat X.
 Format Keluaran
 
 Sebuah baris yang berisi jawaban yang dimaksud.
+
 Contoh Masukan
-
+```
 14
-
+```
 Contoh Keluaran
-
+```
 5
-
+```
 Penjelasan
 
 Bebek nomor 1 - 4 akan mendapat 1+2+3+4 = 10 coklat, sehingga tersisa 4 coklat. Bebek nomor 5 tidak mendapat coklat karena sisa coklat kurang.
@@ -34,8 +37,11 @@ Bebek nomor 1 - 4 akan mendapat 1+2+3+4 = 10 coklat, sehingga tersisa 4 coklat. 
 
 2. Warisan
 
-Time limit 	1 detik
-Memory limit 	16 MB
+|attribute|descpription|
+| --- | --- |
+Time limit |	1 detik
+Memory limit |	16 MB
+
 Pak Dengklek baru saja mendapatkan warisan dari salah satu leluhurnya. Warisan tersebut adalah sepotong tanah berbentuk segitiga. Oleh karena bentuknya yang aneh tersebut, Pak Dengklek membutuhkan bantuan Anda untuk menghitung luasnya.
 
 Terlebih lagi, pada potongan tanah yang ia dapatkan, terdapat banyak pohon-pohon yang sudah tidak elok lagi dipandang. Pohon-pohon tersebut hendak Pak Dengklek tebang. Ongkos menebang satu pohon adalah 1 dolar. Bantu juga Pak Dengklek dalam menghitung berapa uang yang perlu ia keluarkan untuk menebang semua pohon tersebut. Pohon yang ia tebang tentu adalah pohon yang ada di dalam area tanah miliknya, yakni yang terletak di dalam atau tepat di garis segitiga. 
@@ -45,8 +51,9 @@ Tiga baris pertama berisi koordinat tiga titik sudut dari tanah Pak Dengklek. Ba
 Format Keluaran
 
 Baris pertama berisi sebuah bilangan yang menyatakan luas tanah Pak Dengklek (dibulatkan sampai satu angka di belakang koma). Baris kedua berisi sebuah bilangan bulat yang menyatakan jumlah ongkos yang perlu Pak Dengklek keluarkan untuk membersihkan tanahnya dari pohon-pohon yang sudah tidak elok lagi.
-Contoh Masukan
 
+Contoh Masukan
+```
 2 6
 5 1
 7 8
@@ -56,20 +63,21 @@ Contoh Masukan
 6 4
 6 5
 4 7
-
+```
 Contoh Keluaran
-
+```
 15.5
 2
-
-
+```
 
 ## Praktikum 2
 
 3. Adakah Bilangan Ini?
 
-Batas Waktu 	0.05 detik
-Batas Memori 	8MB
+|attribute|descpription|
+| --- | --- |
+Batas Waktu |	0.05 detik
+Batas Memori |	8MB
 
 Diketahui sekumpulan n bilangan bulat (A), dan sekumpulan m bilangan bulat (B). Buat program untuk memeriksa bilangan mana saja dalam A yang tidak terdapat di dalam B. Bilangan yang terdapat di dalam A maupun B bernilai dengan kisaran -100 sampai dengan 100.
 Format Masukan
@@ -78,22 +86,27 @@ Baris pertama bilangan n yang menunjukkan banyaknya bilangan dalam A, dan baris 
 Format Keluaran
 
 Bilangan unik dalam A terurut dari kecil ke besar yang tidak terdapat pada B.
-Contoh Masukan
-
+```bash
 6
 -2 -1 0 1 4 4
+```
+```bash
 7
 -3 -2 -1 1 2 3 5
-
+```
 Contoh Keluaran
-
+```bash
 0
+```
+```bash
 4
-
+```
 4. Median
 
-Batas Waktu 	1 detik
-Batas Memori 	32 MB
+|attribute|description|
+| --- | --- |
+Batas Waktu  |	1 detik
+Batas Memori  |	32 MB
 
 Median adalah nilai tengah dari suatu kumpulan bilangan yang sudah terurut. Misalnya diberikan data [10, -1, 8, 4, 5], maka data tersebut menjadi [-1, 4, 5, 8, 10] setelah diurutkan. Median dari kumpulan bilangan tersebut adalah 5. Bila banyak bilangan genap, maka median dari kumpulan bilangan tersebut adalah rata-rata dari dua nilai tengahnya.
 
@@ -104,12 +117,13 @@ Baris pertama berisi sebuah bilangan bulat N. Baris berikutnya berisi N buah bil
 Format Keluaran
 
 Sebuah baris berisi sebuah bilangan nyata yaitu median dari bilangan-bilangan tersebut, dengan dua angka di belakang koma.
-Contoh Masukan
 
+Contoh Masukan
+```bash
 6
 10 -1 8 4 5 3
-
+```
 Contoh Keluaran
-
+```bash
 4.50
-
+```
