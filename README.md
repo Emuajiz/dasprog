@@ -1,5 +1,7 @@
 # dasprog
 
+kumpulan source code dasar pemrograman
+
 ## Praktikum 1
 
 1. Coklat untuk Bebek
