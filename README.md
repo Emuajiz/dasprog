@@ -6,11 +6,11 @@ kumpulan source code dasar pemrograman
 
 1. Coklat untuk Bebek
 
-|name | description |
+| attribute | description |
 | --------- | --------- |
-|Batas Waktu    | 1 detik   |
-|Batas Memori   | 32 MB     |
-|Oleh           |	Reinhard Dennis, TOKI 2009, modified by Muhammad Adinata, TOKI 2009 |
+| Batas Waktu |1 detik |
+| Batas Memori | 32 MB |
+| Oleh | Reinhard Dennis, TOKI 2009, modified by Muhammad Adinata, TOKI 2009 |
 
 Pak Dengklek memiliki banyak sekali bebek di kandangnya. Bebek-bebek tersebut diberi nomor mulai dari 1.
 
@@ -39,7 +39,7 @@ Bebek nomor 1 - 4 akan mendapat `1+2+3+4 = 10` coklat, sehingga tersisa 4 coklat
 
 2. Warisan
 
-|attribute|descpription|
+|attribute|description|
 | --- | --- |
 Time limit |	1 detik
 Memory limit |	16 MB
@@ -76,7 +76,7 @@ Contoh Keluaran
 
 3. Adakah Bilangan Ini?
 
-|attribute|descpription|
+|attribute|description|
 | --- | --- |
 Batas Waktu |	0.05 detik
 Batas Memori |	8MB
@@ -128,4 +128,66 @@ Contoh Masukan
 Contoh Keluaran
 ```bash
 4.50
+```
+
+## Praktikum 2
+
+5. Pinggirkan Angka Nol
+
+|attribute|description|
+| --- | --- |
+Batas Waktu  |0.5 detik
+Batas Memori 	|32 MB
+Deskripsi
+
+Diberikan n bilangan bulat, dan diinginkan setiap bilangan yang bernilai 0 terletak di deretan paling kanan. Untuk itu, kita dapat melakukan penukaran tempat dari 2 bilangan. Jika 1 langkah didefinisikan sebagai menukar 2 bilangan yang ada, maka berapa langkah minimal yang diperlukan agar setiap bilangan nol akan terletak di deret paling kanan.
+
+Sebagai contoh, jika diberikan deret bilangan [0, 5, 2, 0, 1] maka diperlukan 1 langkah sehingga susunan menjadi [1, 5, 2, 0, 0], yaitu dengan menukar nilai 0 di posisi pertama dengan nilai 1 di posisi terakhir.
+Format Masukan
+
+Baris pertama adalah sebuah bilangan bulat n (1<=n<=10^5) yang menunjukkan banyaknya bilangan. Baris berikutnya berisi n bilangan yang masing-masing bernilai -10^9 ≤ bilangan ≤ 10^9.
+Format Keluaran
+
+Sebuah bilangan yang menunjukkan banyaknya langkah minimum agar semua bilangan yang bernilai 0 terletak di deret paling kanan.
+Contoh Masukan
+```bash
+4
+0 5 2 0 1
+```
+Contoh Keluaran
+```bash
+1
+```
+Peringatan
+Output diakhiri dengan newline.
+
+6. Modus Terbesar
+
+|attribute|description|
+| --- | --- |
+Batas Waktu |	0.1 detik
+Batas Memori| 	32 MB
+
+Dalam ilmu statisika, dikenal suatu ukuran sebaran yang disebut dengan modus. Modus adalah data yang paling banyak muncul dalam suatu kumpulan data. Sebuah kumpulan data bisa jadi memiliki lebih dari satu modus, yaitu ketika terdapat lebih dari satu data yang jumlah kemunculannya sama.
+
+Pak Dengklek memberikan Anda `N (1 ≤ N ≤ 100.000) `buah bilangan bulat yang masing-masing di antara `1 sampai 1.000`. Tentukanlah modus terbesar dari bilangan-bilangan tersebut.
+Format Masukan
+
+Baris pertama berisi sebuah bilangan bulat N. N baris berikutnya berisi bilangan-bilangan tersebut.
+Format Keluaran
+
+Sebuah baris berisi modus terbesar dari kumpulan bilangan tersebut.
+Contoh Masukan
+```bash
+6
+1
+3
+2
+4
+1
+4
+```
+Contoh Keluaran
+```bash
+4
 ```
