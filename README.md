@@ -130,7 +130,7 @@ Contoh Keluaran
 4.50
 ```
 
-## Praktikum 2
+## Praktikum 3
 
 5. Pinggirkan Angka Nol
 
@@ -138,6 +138,7 @@ Contoh Keluaran
 | --- | --- |
 Batas Waktu  |0.5 detik
 Batas Memori 	|32 MB
+
 Deskripsi
 
 Diberikan n bilangan bulat, dan diinginkan setiap bilangan yang bernilai 0 terletak di deretan paling kanan. Untuk itu, kita dapat melakukan penukaran tempat dari 2 bilangan. Jika 1 langkah didefinisikan sebagai menukar 2 bilangan yang ada, maka berapa langkah minimal yang diperlukan agar setiap bilangan nol akan terletak di deret paling kanan.
