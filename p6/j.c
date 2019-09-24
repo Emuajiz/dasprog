@@ -8,7 +8,7 @@ int smallestSumSubarr(int arr[], int n)
     int min = arr[0];
     for (int i = 1; i < n; i++)
     {
-        best = min;
+        // best = min;
         best += arr[i];
         if(arr[i] < best) min = arr[i]; 
     }
