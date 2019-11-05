@@ -1,0 +1,5 @@
+4
+G64210918,Diah Indrajati,2.78,Jakarta
+G64212431,Tamsur Fuad,3.15,Bogor
+G64210926,Ahmad Mukidi,2.94,Tangerang
+G64210998,Intan Permata Delima Hati,3.14,Boyolali
